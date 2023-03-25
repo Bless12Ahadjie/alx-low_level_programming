@@ -8,13 +8,13 @@
 
 int _abs(int n)
 {
-	if (c < 0)
+	if (n < 0)
 	{
 		int value;
 		
-		value = c * -1;
+		value = n * -1;
 		return (value);
 	}
-	return (c);
+	return (n);
 }
 
