@@ -6,7 +6,7 @@
  * @size: takes value
  * @cmp: takes value
  *
- * Return: Always 0 (success)
+ * Return: Always -1 (success)
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -22,6 +22,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 		if (cmp(array[a]))
 			return (a);
 	}
-	return (0);
+	return (-1);
 }
 
