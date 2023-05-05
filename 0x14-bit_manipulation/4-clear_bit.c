@@ -9,7 +9,7 @@
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	int a = 63;
+
 
 	if (index > 63)
 	{
