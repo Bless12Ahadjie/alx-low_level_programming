@@ -9,9 +9,8 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	int num = 63;
-
-	if (index > num)
+	
+	if (index > 63)
 	{
 		return (-1);
 	}
