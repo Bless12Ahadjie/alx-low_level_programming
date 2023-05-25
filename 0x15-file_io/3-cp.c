@@ -18,7 +18,7 @@ char *mk_buffer(char *c)
 
 	burfer = malloc(sizeof(char) * 1024);
 
-	if (buffer == NULL)
+	if (burfer == NULL)
 	{
 		dprintf(STDERR_FILENO,
 			"Error: Can't write to %s\n", c);
@@ -32,7 +32,7 @@ char *mk_buffer(char *c)
  *
  * @a: The file descriptor to be closed.
  */
-void close_file(int a)
+void cls_file(int a)
 {
 	int hold;
 
